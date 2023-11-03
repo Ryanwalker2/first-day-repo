@@ -1,0 +1,122 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 0px;
+}
+header {
+    position: fixed;
+    top: -5px;
+    right: 0px;
+    left: 0px;
+    height: 200px;
+    text-align: center;
+    background-image: radial-gradient(#302d2d 15%, #231231 35%, #5d1e97 70%);
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    
+}
+
+.buttons {
+    text-align: right;
+    list-style-type: none;
+    font-size: 20px;
+    display: block;
+    position: relative;
+    padding: 10px;
+    color: white;
+}
+h1 {
+    color: paleturquoise;
+    text-shadow: white 1px 0 3px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    color: black;
+    text-decoration: underline;
+}
+#welcome {
+    background-color: dimgray;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+#faq {
+    background-color: dimgray;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+.question {
+    text-align: left;
+
+}
+.answer {
+    text-align: left;
+}
+.container {
+    background-color: dimgray;
+    color: black;
+    border: 2px solid black;
+    margin:20px auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width:100%;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    margin:0 auto;
+    padding:10px;
+    background-color: beige;
+}
+
+#form {
+    position: relative;
+    margin:10px;
+}
+
+.contact {
+    display:block;
+    margin: auto auto;
+    width:40%
+}
+
+input {
+    width: 40%
+}
+
+.button {
+    display:inline;
+    margin:0 auto;
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 10% 10%;
+}
+
+#placeholder {
+    position: relative;
+    float: left;
+    
+
+}
+
+/* Allows the home button in the HTML to properly scroll to the top of the page */
+#home {
+    margin-top: 200px;
+}

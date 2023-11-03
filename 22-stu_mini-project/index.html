@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Walker Git Study Guide</title>
+    <link rel="StyleSheet" href="./assets/style.css">
+</head>
+
+<body>
+    <a id="home"></a>
+    <header>
+        <img id="placeholder" src="https://via.placeholder.com/200" alt="placeholder image for webpage header">
+        <h1>Git, HTML, CSS Study Guide</h1>
+        <nav>
+            <ul class="buttons">
+                <li class="button"><a href="#home">Home</a></li>
+                <li class="button"><a href="#faq">FAQ</a></li>
+                <li class="button"><a href="#form">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <section id="home"></section>
+        <section id="welcome">
+            <div>
+                <h2>Welcome!</h2>
+                <p>You've found my study guide. I created this study guide to practice some of my HTML and CSS coding as
+                    well as to experiment with some of the different elements that are avaailable. Feel free to use any
+                    of the coding you find here as an example! Please note: im sure there are many ways to improve what
+                    was used to create this and I in no way claim to be an expert in either HTML or CSS. Use at your own
+                    risk.</p>
+            </div>
+        </section>
+        <section id="faq">
+            <div>
+                <h2>Frequently Asked Questions</h2>
+                <p>Below are some of the frequently asked questions in regards to learning HTML and CSS:</p>
+                <h3 style="text-align: left;">What is the difference between GitHub and GitBash?</h3>
+                <div class="answer">
+                    <p>GitHub provides a cloud based storage solution that allows developers to save their projects
+                        somewhere
+                        other than the device they are working on. It also allows for other developers to collaborate or
+                        use each others
+                        codes. GitBash on the other hand is a terminal window that allows the use of git commands. This
+                        can be used to do
+                        various things including pushing and pulling files to and from GitHub.</p>
+                </div>
+                <h3 style="text-align: left;">What are some of the common git commands used when coding?</h3>
+                <div class="answer">
+                    <p>Here is a list of common git commands and what their purposes are:</p>
+                    <ul>
+                        <li>git init - This command turns a directory into an empty Git repository. This is the first
+                            step in creating a repository. After running git init, adding and committing
+                            files/directories is possible.</li>
+                        <li>git add - Adds files in the to the staging area for Git. Before a file is available to
+                            commit to a repository, the file needs to be added to the Git index (staging area). There
+                            are a few different ways to use git add, by adding entire directories, specific files, or
+                            all unstaged files.</li>
+                        <li>git commit - Record the changes made to the files to a local repository. For easy reference,
+                            each commit has a unique ID.</li>
+                        <li>git status - git status will return the current working branch. If a file is in the staging
+                            area, but not committed, it shows with git status. Or, if there are no changes it’ll return
+                            nothing to commit, working directory clean.</li>
+                        <li>git config - With Git, there are many configurations and settings possible. git config is
+                            how to assign these settings. Two important settings are user user.name and user.email.
+                            These values set what email address and name commits will be from on a local computer. With
+                            git config, a --global flag is used to write the settings to all repositories on a computer.
+                            Without a --global flag settings will only apply to the current repository that you are
+                            currently in.</li>
+                        <li>git branch - To determine what branch the local repository is on, add a new branch, or
+                            delete a branch.</li>
+                        <li>git checkout - To start working in a different branch, use git checkout to switch branches.
+                        </li>
+                        <li>git push - Sends local commits to the remote repository. git push requires two parameters:
+                            the remote repository and the branch that the push is for.</li>
+                        <li>git pull - To get the latest version of a repository run git pull. This pulls the changes
+                            from the remote repository to the local computer.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <img class="contact" src="./assets/images/image1.jpg" alt="Image that says Contact Us" />
+                <section id="form">
+                    <h3>Contact form</h3>
+                    <h4>First Name:</h4>
+                    <p style="input"><input type="text" placeholder="John"></p>
+                    <h4>Last Name:</h4>
+                    <p style="input"><input type="text" placeholder="Doe"></p>
+                    <h4>Email:</h4>
+                    <p style="input"><input type="email" placeholder="example@example.com"></p>
+                    <h4>Phone Number:</h4>
+                    <p style="input"><input type="tel" maxlength="10" placeholder="123-456-7890"></p>
+                    <br>
+                    <!--This input adds the send button to the form. When looking to record the previous input information a "submit" type would be used instead along with a formaction="" to submit the entries to a record somewhere.-->
+                    <input class="send" type="button" value="Send">
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> ---<br>
+
+            </br>© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
